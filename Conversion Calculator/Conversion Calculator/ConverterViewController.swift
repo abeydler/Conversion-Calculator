@@ -12,6 +12,49 @@ class ConverterViewController: UIViewController {
     @IBOutlet weak var outputDisplay: UITextField!
     @IBOutlet weak var inputDisplay: UITextField!
     
+    var current = ""
+    @IBAction func insertNumbers(_ sender: UIButton) {
+        let button = sender as UIButton
+        
+        switch button.tag {
+        case 0:
+            current += "0"
+            inputDisplay.text = current
+        case 1:
+            current += "1"
+            inputDisplay.text = current
+        case 2:
+            current += "2"
+            inputDisplay.text = current
+        case 3:
+            current += "3"
+            inputDisplay.text = current
+        case 4:
+            current += "4"
+            inputDisplay.text = current
+        case 5:
+            current += "5"
+            inputDisplay.text = current
+        case 6:
+            current += "6"
+            inputDisplay.text = current
+        case 7:
+            current += "7"
+            inputDisplay.text = current
+        case 8:
+            current += "8"
+            inputDisplay.text = current
+        case 9:
+            current += "9"
+            inputDisplay.text = current
+            
+        default:
+            inputDisplay.text = "error"
+        }
+        
+    }
+    
+    
     struct Converter {
         var label = ""
         var input = ""
