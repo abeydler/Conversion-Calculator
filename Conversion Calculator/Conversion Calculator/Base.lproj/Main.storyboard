@@ -229,13 +229,16 @@
                                                             <action selector="insertNumbers:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rEG-x5-Q44"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xuf-4P-FnL">
+                                                    <button opaque="NO" tag="-1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xuf-4P-FnL">
                                                         <rect key="frame" x="250.5" y="0.0" width="124.5" height="91.5"/>
                                                         <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
                                                         <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="40"/>
                                                         <state key="normal" title=".">
                                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="insertNumbers:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Hes-Wf-D9s"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <constraints>
